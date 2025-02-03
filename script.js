@@ -75,10 +75,9 @@ function editTask(listItem, oldText) {
     }
   });
 
-  // Append the save button to the list item
   listItem.appendChild(saveBtn);
 }
 
 function toggleDone(listItem) {
-  listItem.classList.toggle('completed'); // Toggle the 'completed' class for strikethrough effect
+  listItem.classList.toggle('completed'); 
 }
